@@ -20,6 +20,4 @@
     ./highlights.nix
     ./statusline.nix
   ];
-
-  colorscheme.oldworld.enable = true;
 }
