@@ -1,9 +1,19 @@
-{ lib, ... }:
-lib.nixvim.plugins.mkNeovimPlugin {
-  name = "oldworld";
-  maintainers = "dgox16";
-  url = "https://github.com/dgox16/oldworld.nvim";
+{ pkgs, lib, ... }:
 
-  isColorscheme = true;
+{
+  extraPlugins = [
+    {
+      plugin = pkgs.vimUtils.buildVimPlugin {
+        name = "oldworld";
+        src = pkgs.fetchFromGithub {
+          owner = "dgox16";
+          repo = "oldworld.nvim";
+          rev = "db072a0bd2c90035fc3a57a73014cb54d3902f1f";
+          hash = "sha256-0E9Nj4XB7Kum/hj1RlN2Oz6IQFD2y7FboFmbOOGGmXc=";
+        };
+      };
+    };
+  ];
+
   colorscheme = "oldworld";
 }
