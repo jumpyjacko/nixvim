@@ -37,5 +37,5 @@
     StlVisual = { fg = "#ACA1CF"; };
     StlReplace = { fg = "#EA83A5"; };
     StlCommand = { fg = "#E6B99D"; };
-  }
+  };
 }
