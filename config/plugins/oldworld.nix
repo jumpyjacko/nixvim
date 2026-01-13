@@ -12,7 +12,7 @@
           hash = "sha256-0E9Nj4XB7Kum/hj1RlN2Oz6IQFD2y7FboFmbOOGGmXc=";
         };
       };
-    };
+    }
   ];
 
   colorscheme = "oldworld";
