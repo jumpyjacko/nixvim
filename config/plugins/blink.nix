@@ -4,7 +4,7 @@
     setupLspCapabilities = true;
 
     settings = {
-      signature.enable = true;
+      signature.enabled = true;
       keymap = {
         preset = "default";
         "<Tab>" = { __unkeyed-1 = "select_next"; __unkeyed-2 = "fallback"; };
