@@ -1,7 +1,7 @@
 {
   dependencies = {
     fzf.enable = true;
-    ripgrep = true;
-    bat = true;
+    ripgrep.enable = true;
+    bat.enable = true;
   };
 }
