@@ -4,6 +4,8 @@
     ./core.nix
     ./dependencies.nix
 
+    ./plugins/oldworld.nix
+
     ./plugins/auto-pairs.nix
     ./plugins/blink.nix
     ./plugins/fidget.nix
