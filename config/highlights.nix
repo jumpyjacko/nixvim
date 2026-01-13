@@ -1,6 +1,5 @@
 {
-  highlight = {
-    # blink.cmp completion highlights
+  highlightOverride = {
     BlinkCmpMenu = { fg = "#ACA1CF"; bg = "NONE"; italic = true; };
 
     BlinkCmpAbbrDeprecated = { fg = "#65737E"; bg = "NONE"; strikethrough = true; };
@@ -29,12 +28,14 @@
     BlinkCmpKindInterface = { fg = "#ffffff"; bg = "#85B5BA"; };
     BlinkCmpKindColor = { fg = "#ffffff"; bg = "#85B5BA"; };
     BlinkCmpKindTypeParameter = { fg = "#ffffff"; bg = "#85B5BA"; };
-  
+  };
+
+  highlight = {
     StlAccent = { fg = "#90B99F"; };
     StlNormal = { fg = "#92A2D5"; };
     StlInsert = { fg = "#90B99F"; };
     StlVisual = { fg = "#ACA1CF"; };
     StlReplace = { fg = "#EA83A5"; };
     StlCommand = { fg = "#E6B99D"; };
-  };
+  }
 }
