@@ -28,9 +28,7 @@
     BlinkCmpKindInterface = { fg = "#ffffff"; bg = "#85B5BA"; };
     BlinkCmpKindColor = { fg = "#ffffff"; bg = "#85B5BA"; };
     BlinkCmpKindTypeParameter = { fg = "#ffffff"; bg = "#85B5BA"; };
-  };
 
-  highlight = {
     StlAccent = { fg = "#90B99F"; };
     StlNormal = { fg = "#92A2D5"; };
     StlInsert = { fg = "#90B99F"; };
