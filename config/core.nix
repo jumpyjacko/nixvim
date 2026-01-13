@@ -1,5 +1,5 @@
 {
-  global.mapleader = " ";
+  globals.mapleader = " ";
   globalOpts = {
     number = true;
     relativenumber = true;
