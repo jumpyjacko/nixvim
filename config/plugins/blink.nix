@@ -7,10 +7,10 @@
       signature.enable = true;
       keymap = {
         preset = "default";
-        <Tab>.__raw = "{ 'select_next, 'fallback' }";
-        <S-Tab>.__raw = "{ 'select_prev, 'fallback' }";
-        <CR>.__raw = "{ 'accept', 'fallback' }";
-        <Esc>.__raw = "{ 'cancel', 'fallback' }";
+        "<Tab>" = { __unkeyed-1 = "select_next", __unkeyed-2 = "fallback" };
+        "<S-Tab>" = { __unkeyed-1 = "select_prev", __unkeyed-2 = "fallback" };
+        "<CR>" = { __unkeyed-1 = "accept", __unkeyed-2 = "fallback" };
+        "<Esc>" = { __unkeyed-1 = "cancel", __unkeyed-2 = "fallback" };
       };
       completion = {
         documentation.auto_show = true;
